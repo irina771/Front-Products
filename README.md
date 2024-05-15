@@ -28,26 +28,33 @@ Hacer npm start en ambos repos.
 ### Rutas BACK-END
 
 Esto traerá todos los productos.
+
 _GET= "http://localhost:3001/products/" 
 
 Esta ruta creará un nuevo producto.
+
 _POST= "http://localhost:3001/products/createProduct" 
 
 Esta ruta edita los productos.
+
 _PUT= "http://localhost:3001/products/update/:id" 
 
 Esto elimina los productos.
+
 _DELETE= "http://localhost:3001/products/delete/:id" 
 
 ### Rutas FRONT-END
 
 Esta ruta servirá para crear una cuenta y loguearse.
+
 "http://localhost:300/login"
 
 En esta ruta se mostrará todos los productos con su paginado y una navBar para crear un nuevo producto.
+
 "http://localhost:300/home"
 
 En esta ruta se podrá crear un nuevo producto que aparecerá al final de todos los ya creados.
+
 "http://localhost:300/create"
 
 
