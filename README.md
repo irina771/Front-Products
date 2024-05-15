@@ -7,14 +7,22 @@ PSQLshell
 ## Pasos a seguir
 
 Descargar los 2 repositorios.
+
 Hacer npm i en ambos repos.
+
 Crear un archivo .env en la raíz del proyecto con los siguientes datos:
+
 DB_USER= postgres
+
 DB_PASSWORD= admin123
+
 DB_HOST= localhost
+
 PORT= 5432
 
+
 En caso de ya tener una cuenta en postgres, iniciar sesion con los datos dados en psql shell.
+
 Hacer npm start en ambos repos.
 
 ### Rutas BACK-END
